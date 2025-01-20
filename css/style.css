@@ -1,11 +1,44 @@
-h2{
+.first h2{
     color: blue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
     text-align: center;
 }
 
-p{
+.first p{
     font-size: 35px;
     text-align: center;
+}
+
+.second{
+    /* border: 1px solid; */
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.box1{
+    /* border: 1px solid; */
+    height: 400px;
+    width: 49%;
+    margin-top: 50px;
+    padding-left: 80px;
+}
+
+.box1 img{
+    width: 400px;
+    height: 300px;
+}
+
+.box2{
+    /* border: 1px solid; */
+    height: 400px;
+    width: 49%;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.box2 h3{
+    font-size: 15px;
 }
